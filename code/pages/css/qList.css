@@ -1,0 +1,93 @@
+
+body{
+	background-color: #f0f0f0;
+}
+
+.contaner{
+	width: 85%;
+	margin: 0 auto;
+/*
+	margin-top: 20px;
+*/
+	background-color: white;
+	height: 500px;
+}
+.top{
+	height: 50px;
+	background-color: #f6f6f6;
+	font-size: 16px;
+	color: #456981;
+	border: 1px solid #dedcde;
+	border-bottom: none;
+}
+.top i{
+	margin-left: 15px;
+}
+.top span{
+	line-height: 45px;
+	margin-left: 5px;
+	color: #333133;
+}
+.va-m{
+	height: 50px;
+}
+
+.questions{
+	overflow: hidden;
+}
+.row{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+
+.qbox-a{
+
+}
+.qbox-a:hover{
+	background-color: #dff0d8;
+	text-decoration: none;
+}
+.qbox{
+	width: 85%;
+	height: 130px;
+	background-color: #d9edf7;
+	padding: 15px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	border-radius: 15px;
+	margin: 0 auto;
+	color: #4f83ab;
+	position: relative;
+
+}
+.questions{
+	border: 1px solid #dedcde;
+	border-bottom: none;
+}
+.qbox:hover{
+	background-color: #dff0d8;
+	color: #23527c;
+}
+.qbox-title{
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.qbox-description{
+	margin-top: 20px;
+	font-size: 13px
+}
+.qbox-order{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: #f5f5dc;
+	color: #b39596;
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+}

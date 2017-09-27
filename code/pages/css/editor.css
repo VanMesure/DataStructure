@@ -1,0 +1,82 @@
+@font-face{
+	font-family: fb;
+	src: url(./font/fb.ttf);
+}
+
+textarea{
+	height: 1000px;
+
+}
+body{
+	background-color: rgba(0,0,0,0.05);
+	overflow-y: auto;
+}
+aside{
+	color: #036;
+	font-family: times;
+	
+}
+aside i{
+	position: absolute;
+	top: 1px;
+	left: 5px;
+	font-size: 18px;
+}
+aside .desturction{
+	margin-left: 5px;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.tips{
+	margin-top: 40px;
+
+}
+aside ul{
+	margin-left: 15px;
+
+}
+aside ul li{
+	margin-top: 15px;
+	font-size: 15px;
+}
+aside ul li .label{
+	margin-right: 10px;
+	
+
+}
+aside ul span{
+
+
+}
+
+#right form{
+	
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+#right form button{
+	margin-top: 25px;
+	
+}
+#right .panel-header{
+	margin:0;
+
+}
+#right .panel-body{
+	height: 320px;
+	overflow-y: scroll;
+}
+
+#modal-up .modal-header{
+	background-color: #5a98de;
+	height: 30px;
+
+}
+#modal-reback .modal-header{
+	background-color: #f37b1d;
+}
+.modal-body p{
+	font-size: 16px;
+}

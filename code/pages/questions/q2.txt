@@ -1,0 +1,7 @@
+//请不要更改源代码，否则无法通过编译
+int Fsequence(int n){
+	/*write your code below	*/
+	
+}
+
+
